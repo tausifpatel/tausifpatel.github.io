@@ -88,7 +88,7 @@ a:hover {
   background-size: cover;
   text-align: center;
   height: 100vh;
-  background-attachment: fixed; }
+/*   background-attachment: fixed;*/ } 
   @media only screen and (max-width: 1024px) {
     .hero {
       background-position-x: 60%; } }
