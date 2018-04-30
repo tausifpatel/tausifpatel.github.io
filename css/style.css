@@ -100,8 +100,7 @@ a:hover {
       background-position-x: 70%; } }
   @media only screen and (max-width: 425px) {
     .hero {
-      background-position-x: 80%;
-      color: #efefef; } }
+      background-position-x: 80%; } }
   .hero__content {
     top: 50%;
     transform: translatey(-50%); }
