@@ -82,16 +82,19 @@ a:hover {
     @media only screen and (max-width: 425px) {
       .page-section__img {
         height: 25rem; } }
+    @media only screen and (max-width: 375px) {
+      .page-section__img {
+        height: 20rem; } }
 
 .hero {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../img/hero4.jpg");
   background-size: cover;
   text-align: center;
-  height: 100vh;
-/*   background-attachment: fixed;*/ } 
+  height: 100vh; }
   @media only screen and (max-width: 1024px) {
     .hero {
-      background-position-x: 60%; } }
+      background-position-x: 60%;
+      color: #777; } }
   @media only screen and (max-width: 768px) {
     .hero {
       background-position-x: 70%; } }
@@ -138,7 +141,25 @@ a:hover {
   .tech i {
     font-size: 5rem;
     margin: 0 2rem; }
+    @media only screen and (max-width: 767px) {
+      .tech i {
+        font-size: 3.5rem;
+        margin: 0 1rem; } }
     @media only screen and (max-width: 425px) {
       .tech i {
         font-size: 3rem;
         margin: 0 1rem; } }
+
+footer {
+  margin-bottom: 100px; }
+  footer a:link, footer a:visited {
+    text-decoration: none;
+    font-size: 3rem;
+    color: inherit;
+    margin: 0 2rem;
+    transition: .2s all; }
+    @media only screen and (max-width: 767px) {
+      footer a:link, footer a:visited {
+        font-size: 2rem; } }
+  footer a:hover {
+    color: #555; }
