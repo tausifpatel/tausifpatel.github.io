@@ -1,123 +1,164 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800,900" rel="stylesheet">
-    <title>Grads</title>
+	<title>Portfri</title>
 </head>
 <body>
-    
-    <!-- HERO TEXT -->
-    <header class="container mt-5">
-        <h1 class="hero-text">Gradients</h1>
-        <div class="hero-sub-text mt-3">
-            <p>Some of the cool gradients to make your websites cooler</p>
-            <p>Click on CSS code and grab it, or modify the colours and then grab the CSS code</p>
-        </div>
-    </header>
 
-    <!-- GRAD 1 -->
-    <section class="container mt-5">
-        <div class="row">
-            <div class="col-12">
-                <div class="grad-1"></div>
-                <div class="colorbox">
-                    <input type="color" class="color1 my-5" id="color" value="#74EBD5">
-                    <input type="color" class="color2 my-5" id="color"  value="#9FACE6">
-                    <h3 class="gradient-text mb-5">background-image: linear-gradient(to right bottom, #74EBD5, #9FACE6);</h3> 
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- GRAD 2 -->
-    <section class="container mt-5">
-        <div class="row mt-5">
-            <div class="col-12 mt-4">
-                <div class="grad-2"></div>
-                <div class="colorbox">
-                    <input type="color" class="color3 my-5" id="color" value="#97D9E1">
-                    <input type="color" class="color4 my-5" id="color"  value="#D9AFD9">
-                    <h3 class="gradient-text2 mb-5">background-image: linear-gradient(#97D9E1, #D9AFD9);</h3> 
-                </div>                
-            </div> <!-- col-12 -->   
-        </div> <!-- row -->
-    </section> <!-- section -->
-    
-    <!-- GRAD 3 -->
-    <section class="container mt-5">
-        <div class="row">
-            <div class="col-12 mt-4">
-                <div class="grad-3"></div>
-                <div class="colorbox">
-                    <input type="color" class="color5 my-5" id="color" value="#d166c7">
-                    <input type="color" class="color6 my-5" id="color"  value="#a1c3d1">
-                    <h3 class="gradient-text3 mb-5">background-image: linear-gradient(#D166C7, #A1C3D1);</h3> 
-                </div>                
-            </div> <!-- col-12 -->
-        </div> <!-- row -->
-    </section> <!-- section -->
-
-    <!-- GRAD 4 -->
-    <section class="container mt-5">
-        <div class="row">
-            <div class="col-12 mt-4">
-                <div class="grad-4"></div>
-                <div class="colorbox">
-                    <input type="color" class="color7 my-5" id="color" value="#9447d9">
-                    <input type="color" class="color8 my-5" id="color" value="#3ADCD2">
-                    <h3 class="gradient-text4 mb-5">background-image: linear-gradient(to right bottom, #9447d9, #3ADCD2);</h3> 
-                </div>  
-            </div>
-        </div>
-    </section>
-
-    <!-- GRAD 5 -->
-    <section class="container mt-5">
-        <div class="row">
-            <div class="col-12 mt-4">
-                <div class="grad-5"></div>
-                <div class="colorbox">
-                    <input type="color" class="color9 my-5" id="color" value="#08AEEA">
-                    <input type="color" class="color10 my-5" id="color" value="#2AF598">
-                    <h3 class="gradient-text5 mb-5">background-image: linear-gradient(#08AEEA, #2AF598);</h3> 
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- GRAD 6 -->
-    <section class="container mt-5">
-        <div class="row">
-            <div class="col-12 mt-4">
-                <div class="grad-6"></div>
-                <div class="colorbox">
-                    <input type="color" class="color11 my-5" id="color" value="#2E144B">
-                    <input type="color" class="color12 my-5" id="color" value="#006B8C">
-                    <h3 class="gradient-text6 mb-5">background-image: linear-gradient(#2E144B, #006B8C);</h3> 
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="row">
-            <div class="col-12 mt-4">
-                <h3 class="footer-text m-5"> Some more gradients will be added with more inspirations :)</h3>
-            </div>
-        </div>
-    </footer>
+	<!-- SECTION-HERO -->
+	<section class="hero" id="home">
+		<div class="col hero__content">
+			<h1>Tausif Patel</h1>
+			<div id="typed-strings">
+				<p>Designer</p>
+				<p>Developer</p>
+			</div>
+			<span id="typed"></span>
+		</div>
+	</section>
 
 
-        <script src="js/jquery.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/script.js"></script>
-    </body>
+	<!-- ME -->
+	<section class="me">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2>Passion driven developer and designer</h2>
+					<div> 
+						<p class="mb-5">
+							I have always had creative bone although my professional path has taken many twists and turns from a pharmacist to managerial position , to aiming at regulatory affairs, to self taught web developer and designer. I have never stopped exploring my passion and I am happy I stumbled upon the path of web developing. The learning process being the most exciting project of my life till now I discovered ,a new , more efficient and more adaptable side of me . In a very short period of time I managed to achieve a position to take projects on hand as a freelancer , leading me to explore the market and master the skills of web development.
+						</p>
+						<p>	
+						As a web developer , I put my best self forward. I enjoy using my next to perfectionist traits in coding with my unambiguous skill to create new designs keeping minimalism in centre. I pay high attention to detail in writing a clean, elegant and efficient code . It excites me to be in this field as to make new creative things is my forte.  I plan to make a big impact on world possibly with a high growth company.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- PORTFOLIO-1 -->
+	<section class="page-section">
+		<div class="container">	
+			<div class="row">
+				<div class="col">
+					<img src="img/devices.png" class="page-section__img">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<a href="http://steelbeauty.london"><h2>Steel Beauty</h2></a>
+					<p class="text-bold">2018 - Designed and Developed fully functional responsive website based on Business Requirements using 	HTML5, CSS3(SASS), JavaScript and JQuery, along with branding 
+					</p>
+					<p class="text-bold">
+						Researched industry trends and websites to provide top quality design
+					</p> 
+					<p class="text-bold">
+						Developed website mock-ups to ensure quality control and client satisfaction before project development phase	
+					</p>
+					<p class="text-bold">
+						Executed and monitored standards for user interfaces, page design and graphics development	
+					</p>
+					<p class="text-bold">
+						Web page development from design to test and up to production deployment
+					</p>					
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- PORTFOLIO-2 -->
+	<section class="page-section">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<img src="img/grad.png" class="page-section__img">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<a href="#"><h2>Gradients</h2></a>
+					<p class="text-bold">
+						​​​​​​​2018 - Gradients made a comeback in recent years and the trend is expected to be continued, yet diversified. More gradient innovations can be discovered on many modern websites, particularly with the use of bright and vivid colours in combination with a variety of textures. Gradients 2.0 will also include dual tone effects.
+					</p>
+					<p class="text-bold"> I have displayed some of my favourite gradients. Pick the css code for the gradient of your choice or modify colors and grab the code.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- PORTFOLIO-3 -->
+	<section class="page-section">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<img src="img/fontination.png" class="font-img">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<a href=""><h2>Fontination</h2></a>
+					<p class="text-bold">
+						2018 - Typography of a website is a very crucial component of its design. The typography of a website plays an important role in expressing the message the website wants to convey. In the UX perspective, Good typography undoubtedly plays a central part.
+					</p>
+					<p class="text-bold">Find some of my favourite google font combinations to make your wesbites standout. 
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- BEHIND THE SCENES -->
+	<section class="page-section">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2>Behind the scenes</h2>
+					<p class="me__text">Above projects have been created using HTML5, CSS3 and JavaScript. All the dependancies required in the projects have been installed using Node Package Manager.  All the relavent tags have been utilised in the markup language. BEM principle has been applied in the CSS and it is processed with a sass preprocessor. Gulp has been used to compile the sass code.  Few jquery plugins and a google map API have been used to build steel beauty website.   The dom manipulation event has been defined to modify and copy the code to paste in the stylesheet for the gradient page. In the font combination page, the dom event is defined to change the text content to try the fonts desplayed.
+					Currently I am diving deep into Javascript, exploring the frameworks such as react and redux. At the same time, I have been keeping myself abreast with the ever improving developers world using varius mediums such as Medium, Youtube, podcasts and email subscription.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col tech" style="justify-content: center;text-align: center">
+					<h2>Technologies</h2>
+					<div class="tech__icons">					
+						<i class="devicon-html5-plain-wordmark"></i>
+						<i class="devicon-css3-plain-wordmark"></i>
+						<i class="devicon-javascript-plain"></i>
+						<i class="devicon-gulp-plain"></i>
+						<i class="devicon-sass-original"></i>
+						<i class="devicon-bootstrap-plain-wordmark"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FOOTER -->
+	<section>
+		<div class="row">
+			<div class="col">
+				<h2>let's create something beautiful together!</h2>
+			</div>
+		</div>
+	</section>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/script.js"></script>   
+</body>
 </html>
