@@ -5,16 +5,17 @@
   margin: 0;
   box-sizing: border-box; }
 
-html {
-  font-size: 62.5%;
-  overflow-x: hidden; }
-
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.6rem;
   line-height: 1.7;
   color: #333;
-  background-color: #dfdfdf; }
+  background-color: #dfdfdf;
+  overflow-x: hidden;}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden; }
 
 .typed-cursor {
   color: #333;
