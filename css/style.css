@@ -54,6 +54,7 @@ p {
   line-height: 2.25; }
   @media only screen and (max-width: 425px) {
     p {
+      font-size: 1.8rem;
       text-align: left;
       line-height: 1.7; } }
 
@@ -73,7 +74,10 @@ a:hover {
       text-align: left; } }
 
 .page-section {
-  padding: 30rem 0; }
+  padding: 12rem 0; }
+  @media only screen and (max-width: 425px) {
+    .page-section {
+      padding: 8rem 0; } }
   .page-section__img {
     height: 50rem;
     width: auto; }
