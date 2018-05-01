@@ -13,19 +13,19 @@ $hover-color: #888;
 	box-sizing: border-box;
 }
 
-html{
-	font-size: 62.5%;
-	overflow-x: hidden;
-}
-
 body{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.6rem;
 	line-height: 1.7;
 	color: $base-text-color;
 	background-color: $background-color;
+	overflow-x: hidden;
 }
 
+html{
+	font-size: 62.5%;
+	overflow-x: hidden;
+}
 
 // REUSABLE COMPONENTS
 
@@ -70,6 +70,7 @@ p{
 	font-size: 2rem;
 	line-height: 2.25;
 	@media only screen and (max-width: 425px){
+		font-size: 1.8rem;
 		text-align: left;
 		line-height: 1.7;
 	}
@@ -98,8 +99,11 @@ a{
 }
 
 .page-section {
-	padding: 30rem 0;
-
+	padding: 12rem 0;
+	@media only screen and (max-width: 425px){
+		padding: 8rem 0;
+	}	
+	
 	&__img{
 		height: 50rem;
 		width: auto;
@@ -111,6 +115,10 @@ a{
 		@media only screen and (max-width: 425px){
 			height: 25rem;
 		}		
+		
+		@media only screen and (max-width: 375px){
+			height: 20rem;
+		}	
 	}
 }
 
@@ -120,10 +128,11 @@ a{
 	background-size: cover;
 	text-align: center;
 	height: 100vh;
-	background-attachment: fixed;
+	// background-attachment: fixed;
 
 	@media only screen and (max-width: 1024px){
 		background-position-x: 60%;
+		color: #777;
 	}
 
 	@media only screen and (max-width: 768px){
@@ -132,7 +141,6 @@ a{
 
 	@media only screen and (max-width: 425px){
 		background-position-x: 80%;
-		color: #efefef;
 	}	
 
 
@@ -189,9 +197,38 @@ a{
 	i {
 		font-size: 5rem;
 		margin: 0 2rem;
+	@media only screen and (max-width: 767px){
+			font-size: 3.5rem;
+			margin: 0 1rem;
+		}
+
 	@media only screen and (max-width: 425px){
 			font-size: 3rem;
 			margin: 0 1rem;
+		}
+	}
+}
+
+// FOOTER
+footer{
+	margin-bottom: 100px;
+	
+	a{
+		&:link,
+		&:visited{
+			text-decoration: none;
+			font-size: 3rem;
+			color: inherit;
+			margin: 0 2rem;
+			transition: .2s all;
+
+			@media only screen and (max-width: 767px){
+				font-size: 2rem;
+			}
+		}
+
+		&:hover{
+			color: #555;
 		}
 	}
 }
