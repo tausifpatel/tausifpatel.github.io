@@ -150,8 +150,10 @@ a:hover {
         margin: 0 1rem; } }
     @media only screen and (max-width: 425px) {
       .tech i {
-        font-size: 3rem;
-        margin: 0 1rem; } }
+        font-size: 3rem; } }
+    @media only screen and (max-width: 375px) {
+      .tech i {
+        font-size: 2.5rem; } }
   .tech .faded {
     color: #999; }
 
@@ -166,5 +168,9 @@ footer {
     @media only screen and (max-width: 767px) {
       footer a:link, footer a:visited {
         font-size: 2rem; } }
+    @media only screen and (max-width: 425px) {
+      footer a:link, footer a:visited {
+        font-size: 1.6rem;
+        margin: 0 1.2rem; } }
   footer a:hover {
     color: #555; }
