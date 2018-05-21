@@ -5,17 +5,16 @@
   margin: 0;
   box-sizing: border-box; }
 
+html {
+  font-size: 62.5%;
+  overflow-x: hidden; }
+
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.6rem;
   line-height: 1.7;
   color: #333;
-  background-color: #dfdfdf;
-  overflow-x: hidden;}
-
-html {
-  font-size: 62.5%;
-  overflow-x: hidden; }
+  background-color: #dfdfdf; }
 
 .typed-cursor {
   color: #333;
@@ -29,9 +28,9 @@ html {
   text-align: center; }
 
 h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 500;
   margin: 5.5rem 0; }
   @media only screen and (max-width: 425px) {
     h2 {
@@ -46,10 +45,8 @@ h2:after {
   margin: 0 auto;
   margin-top: 50px; }
 
-h2:last-child:after {
-  display: none; }
-
 p {
+  font-family: 'Inconsolata', monospace;
   font-size: 2rem;
   line-height: 2.25; }
   @media only screen and (max-width: 425px) {
@@ -59,6 +56,7 @@ p {
       line-height: 1.7; } }
 
 a:link, a:visited {
+  font-family: 'Inconsolata', monospace;
   color: inherit;
   transition: .2s all;
   text-decoration: none; }
@@ -67,8 +65,7 @@ a:hover {
   color: #888; }
 
 .text-bold {
-  text-align: center;
-  font-weight: 500; }
+  text-align: center; }
   @media only screen and (max-width: 425px) {
     .text-bold {
       text-align: left; } }
@@ -90,6 +87,8 @@ a:hover {
     @media only screen and (max-width: 375px) {
       .page-section__img {
         height: 20rem; } }
+  .page-section .underline {
+    text-decoration: underline; }
 
 .hero {
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../img/hero4.jpg");
@@ -153,6 +152,8 @@ a:hover {
       .tech i {
         font-size: 3rem;
         margin: 0 1rem; } }
+  .tech .faded {
+    color: #999; }
 
 footer {
   margin-bottom: 100px; }
