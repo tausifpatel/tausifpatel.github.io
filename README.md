@@ -1,2 +1,2 @@
 # tausifpatel.github.io
-Portfolio
+Desinged and developed my portfolio from scratch
